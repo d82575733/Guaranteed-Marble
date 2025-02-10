@@ -1,0 +1,13 @@
+{
+    "name": "BaseGame",
+    "resources": {
+        "Marble": {
+            "placementRules": {
+                "startingBonus": {
+                    "playerIndex": 0,
+                    "adjacentTo": "startingSettler"
+                }
+            }
+        }
+    }
+} 
