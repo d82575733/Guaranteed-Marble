@@ -1,0 +1,19 @@
+ 
+{
+    "MapGen": {
+        "EnsureMarbleForPlayer": {
+            "description": "Adds a marble tile next to the human player's first settler.",
+            "execution": "onGameStart",
+            "effect": {
+                "forEachPlayer": {
+                    "condition": {
+                        "playerIndex": 0
+                    },
+                    "action": "placeResource",
+                    "resource": "Marble",
+                    "adjacentTo": "startingSettler"
+                }
+            }
+        }
+    }
+}
