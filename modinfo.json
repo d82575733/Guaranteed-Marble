@@ -1,0 +1,8 @@
+ 
+{
+    "name": "Guaranteed Marble Start",
+    "description": "Ensures a marble resource tile spawns next to your first settler.",
+    "version": "1.0",
+    "author": "YourName",
+    "dependencies": ["BaseGame"]
+}
